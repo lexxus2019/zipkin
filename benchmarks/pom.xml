@@ -128,7 +128,7 @@
     </dependency>
 
     <!-- zipkin-server optional dependencies for running ServerIntegratedBenchmark -->
-    <dependency>
+    <!--dependency>
       <groupId>${project.groupId}.zipkin2</groupId>
       <artifactId>zipkin-storage-cassandra</artifactId>
       <version>${project.version}</version>
@@ -138,7 +138,7 @@
           <artifactId>*</artifactId>
         </exclusion>
       </exclusions>
-    </dependency>
+    </dependency-->
     <dependency>
       <groupId>com.datastax.oss</groupId>
       <artifactId>java-driver-core</artifactId>
@@ -151,12 +151,12 @@
         </exclusion>
       </exclusions>
     </dependency>
-    <dependency>
+    <!--dependency>
       <groupId>${project.groupId}.zipkin2</groupId>
       <artifactId>zipkin-storage-mysql-v1</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>
-    </dependency>
+    </dependency-->
     <dependency>
       <groupId>org.mariadb.jdbc</groupId>
       <artifactId>mariadb-java-client</artifactId>

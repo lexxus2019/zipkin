@@ -35,8 +35,8 @@
   </properties>
 
   <modules>
-    <module>cassandra</module>
-    <module>mysql-v1</module>
+    <!--module>cassandra</module-->
+    <!--module>mysql-v1</module-->
     <module>elasticsearch</module>
   </modules>
 

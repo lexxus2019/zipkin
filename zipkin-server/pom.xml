@@ -219,12 +219,12 @@
     <!-- Optional, but packaged in the supported distribution -->
 
     <!-- Cassandra backend -->
-    <dependency>
+    <!--dependency>
       <groupId>${project.groupId}.zipkin2</groupId>
       <artifactId>zipkin-storage-cassandra</artifactId>
       <version>${project.version}</version>
       <optional>true</optional>
-    </dependency>
+    </dependency-->
 
     <!-- Elasticsearch http -->
     <dependency>
@@ -235,32 +235,32 @@
     </dependency>
 
     <!-- MySQL backend -->
-    <dependency>
+    <!--dependency>
       <groupId>${project.groupId}.zipkin2</groupId>
       <artifactId>zipkin-storage-mysql-v1</artifactId>
       <version>${project.version}</version>
       <optional>true</optional>
-    </dependency>
-    <dependency>
+    </dependency-->
+    <!--dependency>
       <groupId>org.mariadb.jdbc</groupId>
       <artifactId>mariadb-java-client</artifactId>
       <version>${mariadb-java-client.version}</version>
       <optional>true</optional>
-    </dependency>
-    <dependency>
+    </dependency-->
+    <!--dependency>
       <groupId>com.zaxxer</groupId>
       <artifactId>HikariCP</artifactId>
       <version>${HikariCP.version}</version>
       <optional>true</optional>
-    </dependency>
+    </dependency-->
 
     <!-- ActiveMQ Collector -->
-    <dependency>
+    <!--dependency>
       <groupId>${project.groupId}.zipkin2</groupId>
       <artifactId>zipkin-collector-activemq</artifactId>
       <version>${project.version}</version>
       <optional>true</optional>
-    </dependency>
+    </dependency-->
 
     <!-- Kafka Collector -->
     <dependency>
@@ -271,20 +271,20 @@
     </dependency>
 
     <!-- RabbitMQ Collector -->
-    <dependency>
+    <!--dependency>
       <groupId>${project.groupId}.zipkin2</groupId>
       <artifactId>zipkin-collector-rabbitmq</artifactId>
       <version>${project.version}</version>
       <optional>true</optional>
-    </dependency>
+    </dependency-->
 
     <!-- Scribe Collector -->
-    <dependency>
+    <!--dependency>
       <groupId>${project.groupId}.zipkin2</groupId>
       <artifactId>zipkin-collector-scribe</artifactId>
       <version>${project.version}</version>
       <optional>true</optional>
-    </dependency>
+    </dependency-->
 
     <!-- Trace api controller activity with Brave -->
     <dependency>
@@ -597,26 +597,26 @@
 <!--                </dependency>-->
 
                 <!-- storage and collectors which have 3rd party deps -->
-                <dependency>
+                <!--dependency>
                   <groupId>${project.groupId}.zipkin2</groupId>
                   <artifactId>zipkin-storage-cassandra</artifactId>
-                </dependency>
-                <dependency>
+                </dependency-->
+                <!--dependency>
                   <groupId>io.zipkin.brave.cassandra</groupId>
                   <artifactId>brave-instrumentation-cassandra-driver</artifactId>
-                </dependency>
+                </dependency-->
 
                 <!-- MySQL backend -->
-                <dependency>
+                <!--dependency>
                   <groupId>${project.groupId}.zipkin2</groupId>
                   <artifactId>zipkin-storage-mysql-v1</artifactId>
-                </dependency>
+                </dependency-->
 
                 <!-- ActiveMQ Collector -->
-                <dependency>
+                <!--dependency>
                   <groupId>${project.groupId}.zipkin2</groupId>
                   <artifactId>zipkin-collector-activemq</artifactId>
-                </dependency>
+                </dependency-->
 
                 <!-- Kafka Collector -->
                 <dependency>
@@ -625,16 +625,16 @@
                 </dependency>
 
                 <!-- RabbitMQ Collector -->
-                <dependency>
+                <!--dependency>
                   <groupId>${project.groupId}.zipkin2</groupId>
                   <artifactId>zipkin-collector-rabbitmq</artifactId>
-                </dependency>
+                </dependency-->
 
                 <!-- Scribe Collector -->
-                <dependency>
+                <!--dependency>
                   <groupId>${project.groupId}.zipkin2</groupId>
                   <artifactId>zipkin-collector-scribe</artifactId>
-                </dependency>
+                </dependency-->
                 <exclude>
                   <groupId>${armeria.groupId}</groupId>
                   <artifactId>armeria-thrift0.15</artifactId>

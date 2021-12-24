@@ -36,10 +36,10 @@
 
   <modules>
     <module>core</module>
-    <module>activemq</module>
+    <!--module>activemq</module-->
     <module>kafka</module>
-    <module>rabbitmq</module>
-    <module>scribe</module>
+    <!--module>rabbitmq</module>
+    <module>scribe</module-->
   </modules>
 
   <dependencies>
