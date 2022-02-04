@@ -1,1 +1,1 @@
-mvn -DskipTests --also-make -pl zipkin-server clean install
+mvn -DskipTests --also-make -pl zipkin-server clean package

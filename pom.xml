@@ -32,6 +32,11 @@
   </modules>
 
   <properties>
+    <docker.image.prefix>procoffice</docker.image.prefix>
+    <docker.image.name>${project.artifactId}</docker.image.name>
+    <docker.maven.plugin.version>0.35.0</docker.maven.plugin.version>
+
+
     <main.basedir>${project.basedir}</main.basedir>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
